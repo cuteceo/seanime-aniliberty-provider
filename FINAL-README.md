@@ -2,7 +2,7 @@
 
 ## 🎯 Project Overview
 
-This project creates a streaming provider for Seanime that integrates with the Russian anime service **AniLiberty** (https://aniliberty.top). It allows Seanime users to access Russian anime content directly through their familiar Seanime interface.
+This project creates a streaming provider for Seanime that integrates with the Russian anime service **AniLiberty** (https://anilibria.top). It allows Seanime users to access Russian anime content directly through their familiar Seanime interface.
 
 ## 📁 Project Structure
 
@@ -44,7 +44,7 @@ Seanime-streaming-providers/
 ## 🔧 Technical Details
 
 ### API Integration
-- **Base URL**: `https://aniliberty.top/api/v1`
+- **Base URL**: `https://anilibria.top/api/v1`
 - **Search**: `GET /app/search/releases?query={query}`
 - **Releases**: `GET /anime/releases/{idOrAlias}`
 - **Streams**: Direct HLS URLs from episode data

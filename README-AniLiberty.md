@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a streaming provider for Seanime that integrates with the Russian anime streaming service AniLiberty (https://aniliberty.top). It provides access to high-quality Russian anime streams with multiple quality options.
+This is a streaming provider for Seanime that integrates with the Russian anime streaming service AniLiberty (https://anilibria.top). It provides access to high-quality Russian anime streams with multiple quality options.
 
 ## Features
 
@@ -22,7 +22,7 @@ This is a streaming provider for Seanime that integrates with the Russian anime 
 
 This provider uses the official AniLiberty API v1:
 
-- **Base URL**: `https://aniliberty.top/api/v1`
+- **Base URL**: `https://anilibria.top/api/v1`
 - **Search Endpoint**: `/app/search/releases?query={query}`
 - **Release Details**: `/anime/releases/{idOrAlias}`
 - **Episode Streams**: Direct HLS stream URLs from episode data
@@ -55,7 +55,7 @@ This provider uses the official AniLiberty API v1:
 ### Request Headers
 - User-Agent: Modern browser user agent
 - Accept-Language: Russian preferred
-- Referer: Set to aniliberty.top for API compatibility
+- Referer: Set to anilibria.top for API compatibility
 
 ### Error Handling
 - Graceful handling of missing episodes
