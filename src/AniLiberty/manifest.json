@@ -3,7 +3,7 @@
   "name": "AniLiberty",
   "description": "AniLiberty is an online streaming provider for Russian anime with high-quality streams",
   "manifestURI": "https://raw.githubusercontent.com/cuteceo/seanime-aniliberty-provider/main/src/AniLiberty/manifest.json",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "cuteceo",
   "type": "onlinestream-provider",
   "language": "typescript",
